@@ -29,6 +29,7 @@ void LineBresenham(void){
   glClear(GL_COLOR_BUFFER_BIT);
   glBegin(GL_POINTS);
   glVertex2d(x,y);
+
   while(x<X2){
     x++;
     if(p<0)
@@ -41,6 +42,7 @@ void LineBresenham(void){
   } 
   glEnd();
   glFlush();
+
 }
 
 
