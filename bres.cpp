@@ -5,6 +5,8 @@
 using namespace std;
 double X1, Y1, X2, Y2;
 
+static int DEBUGG = 1;
+
 void LineBresenham(void){
 
   double dx = fabs(X2 - X1);
