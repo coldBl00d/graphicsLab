@@ -65,9 +65,9 @@ void intervalCallback(int){
         displacement_ye =0;
     }
 
-    cout<<header<<" displacement_xs:"<<displacement_xs+cycle_start<<endl;
+    cout<<header<<" displacement_xs: "<<displacement_xs+cycle_start<<endl;
     cout<<header<<" displacement_xe: "<<displacement_xe+cycle_end<<endl;
-    glutTimerFunc(1000/500, intervalCallback, 1);
+    glutTimerFunc(1000/900, intervalCallback, 1);
     display();
 }
 
